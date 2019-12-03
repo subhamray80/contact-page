@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+    <!-- Contact Form - sent to a Google Sheet -->
+    <div class="" style="padding:10px;">
+      <div class="col-12 col-sm-12 col-lg-12 col-xs-12" style="  background-color: #421359;padding:10px;">
+        <p>Kindly fill up the form with care and accuracy. You will be contacted by our GENESIS Coordinator soon.</p>
+    <form id='foo'>
+        <input id='name' name='name' type='text' placeholder="Name" required><br><br>
+        <input id='phone' name='phone' type='tel' placeholder="Phone" required><br><br>
+        <input id='email' name='email' type='email' placeholder="Email Id" required><br><br>
+        <input id='city' name='city' type='text' placeholder="City" required><br><br>
+        <input id='Residential-location' name='Residential-location' type='text' placeholder="Residential or Office Location"><br><br>
+
+        <div class="multiselect">
+   <div class="selectBox" onclick="showCheckboxes()">
+     <select>
+       <option>How can we help you?</option>
+     </select>
+     <div class="overSelect"></div>
+   </div>
+   <div id="checkboxes">
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need Job">I Need Job</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need Job Counselling">I Need Job Counselling</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="We Need Accountant">We Need Accountant</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need Skill Development Coaching">I Need Skill Development Coaching</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need Books">I Need Books</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need Free Tally Training">I Need Free Tally Training</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need Free GST Training">I Need Free GST Training</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need GENESIS Skill Certifications">I Need GENESIS Skill Certifications</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need GENESIS Designation Badges">I Need GENESIS Designation Badges</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="School and College Partnership">School and College Partnership</label>
+        <label for=""><input type="checkbox" id="check-options" name="check-options" onClick="checkbox();" value="I Need Tally and Tax Software">I Need Tally and Tax Software</label>
+        <label for=""><input type="text" id="other" name="other" placeholder="Other">
+
+
+        <input type="text" id="help-needed" name="help-needed" style="display:none;"><br>
+      </div>
+</div><br>
+
+        <textarea id='message' name='message' rows='2' cols='37' placeholder="Any Specific Message"></textarea>
+        <div id='success'></div>
+        <button id="send" type='submit'>Send</button>
+    </form>
+  </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <!-- Custom Theme JavaScript -->
+  <script src='google-sheet.js'></script>
+
+  </body>
+</html>

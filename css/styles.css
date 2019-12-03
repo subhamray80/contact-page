@@ -1,0 +1,103 @@
+body{
+  background-color: #421359;
+  color: white;
+  text-align: justify;
+  overflow-x: hidden;
+}
+input[type="text"]{
+  background-color: white;
+  border: 0px solid transparent;
+  width: 280px;
+  padding: 2px;
+  height: 24px;
+}
+input[type="email"]{
+  background-color: white;
+  border: 0px solid transparent;
+  width: 280px;
+  padding: 2px;
+  height: 24px;
+
+}
+input[type="tel"]{
+  background-color: white;
+  border: 0px solid transparent;
+  width: 280px;
+  padding: 2px;
+  height: 24px;
+
+
+}
+/*select box*/
+.multiselect {
+  width: 280px;
+}
+
+.selectBox {
+  position: relative;
+  font-size: 12px;
+
+}
+
+.selectBox select {
+  width: 100%;
+  height: 26px;
+}
+
+.overSelect {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+#checkboxes {
+  display: none;
+  border: 1px #dadada solid;
+  padding: 4px;
+  background-color: white;
+  color: black;
+  font-size: 12px;
+}
+
+#checkboxes label {
+  display: block;
+}
+
+#checkboxes label:hover {
+  background-color: #1e90ff;
+}
+h2{
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+h1{
+  font-size: 20px;
+  font-weight: 400;
+  font-size: 20px;
+}
+p{
+  font-size: 14px;
+  font-weight: 400;
+}
+#send{
+  background-color: #1D61FE;
+  color: white;
+  border: 0px solid transparent;
+  font-size: 12px;
+  padding: 8px;
+  width: 80px;
+}
+#send:hover{
+  background-color: #1A37F2;
+  border: 0px solid transparent;
+  font-size: 12px;
+  padding: 8px;
+  width: 80px;
+  color: white;
+}
+::-webkit-input-placeholder {
+  font-size: 12px;
+}
